@@ -9,7 +9,10 @@
 			"extensions": [
 				"mads-hartmann.bash-ide-vscode",
 				"dbaeumer.vscode-eslint"
-			]
+			],
+			"settings": {
+				"dev.containers.copyGitConfig": true
+			}			
 		}
 	},
 	"postCreateCommand": "npm install -g @devcontainers/cli"
