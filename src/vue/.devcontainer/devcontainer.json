@@ -1,0 +1,88 @@
+{
+	"name": "Vue Dev Container",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node",
+
+	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
+	// "features": {},
+
+	// 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// 👇 Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "echo '${templateOption:favorite}' > /tmp/color.txt",
+
+	// 👇 Configure tool-specific properties.
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				// my extensions, ofc :P
+				"antfu.browse-lite",
+				"antfu.iconify",
+				"antfu.slidev",
+				"antfu.unocss",
+				"antfu.vite",
+				"antfu.where-am-i",
+				"antfu.open-in-github-button",
+				"lokalise.i18n-ally",
+		
+				// Visuals
+				"antfu.icons-carbon",
+				"antfu.theme-vitesse",
+				"file-icons.file-icons",
+				"sainnhe.gruvbox-material",
+		
+				// Editor
+				"dbaeumer.vscode-eslint",
+				"Vue.volar",
+				"GitHub.copilot",
+				"usernamehw.errorlens",
+				"streetsidesoftware.code-spell-checker",
+				"naumovs.color-highlight",
+		
+				// misc
+				"editorconfig.editorconfig",
+				"johnsoncodehk.vscode-tsconfig-helper",
+
+				// VCS
+				"-eamodio.gitlens"
+
+				// Extras
+
+			],
+			"settings": {
+				// ========== Visuals ==========
+
+				// ========== Editor ==========
+				"search.exclude": {
+					"**/*.snap": true,
+					"**/*.svg": true,
+					"**/.git": true,
+					"**/.github": false,
+					"**/.nuxt": true,
+					"**/.output": true,
+					"**/.pnpm": true,
+					"**/.vscode": true,
+					"**/.yarn": true,
+					"**/assets": true,
+					"**/bower_components": true,
+					"**/dist/**": true,
+					"**/logs": true,
+					"**/node_modules": true,
+					"**/out/**": true,
+					"**/package-lock.json": true,
+					"**/pnpm-lock.yaml": true,
+					"**/public": true,
+					"**/temp": true,
+					"**/yarn.lock": true,
+					"**/CHANGELOG*": true,
+					"**/LICENSE*": true
+				}
+
+				// ========== Extension configs ==========
+			}
+		}
+	}
+
+	// 👇 Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
