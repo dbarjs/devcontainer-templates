@@ -1,5 +1,5 @@
 
-# My Favorite Color (color)
+# My Favorite Color (vue)
 
 A Template to remind you of your favorite color
 
@@ -14,4 +14,4 @@ A Template to remind you of your favorite color
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/dbarjs/devcontainer-templates/blob/main/src/color/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/dbarjs/devcontainer-templates/blob/main/src/vue/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
