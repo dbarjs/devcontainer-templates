@@ -1,18 +1,25 @@
 // More info: https://containers.dev/implementors/json_reference/
 {
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye",
-	"features": {
-		"ghcr.io/devcontainers/features/docker-in-docker:2": { }
-	},
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"ms-azuretools.vscode-docker"
-			],
-			"settings": {
-				"dev.containers.copyGitConfig": true
-			}
-		}
-	},
-	"postCreateCommand": "npm install -g @devcontainers/cli"
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": { }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "dev.containers.copyGitConfig": true,
+
+        // ========== Extension configs ==========
+        "prettier.enable": false,
+        "prettier.printWidth": 200,
+        "prettier.semi": false,
+        "prettier.singleQuote": true
+      }
+    }
+  },
+  "postCreateCommand": "npm install -g @devcontainers/cli"
 }
