@@ -1,19 +1,23 @@
 {
   "id": "vue",
-  "version": "1.2.2",
+  "version": "1.2.4",
   "name": "Dev Container for Vue.js",
-  "description": "A Template to remind you of your favorite color",
-  "documentationURL": "https://github.com/devcontainers/template-starter/tree/main/src/color",
-  "licenseURL": "https://github.com/devcontainers/template-starter/blob/main/LICENSE",
+  "description": "A Template for Vue.js development in a Docker container",
+  "documentationURL": "https://github.com/dbarjs/devcontainer-templates/tree/main/src/vue",
+  "licenseURL": "https://github.com/dbarjs/devcontainer-templates/blob/main/LICENSE",
   "options": {
     "imageVariant": {
       "type": "string",
-      "description": "Debian version (use bullseye on local arm64/Apple Silicon):",
+      "description": "Node.js version (use -bookworm, -bullseye variants on local arm64/Apple Silicon):",
       "proposals": [
-        "bullseye",
-        "buster"
+        "20-bookworm",
+        "18-bookworm",
+        "20-bullseye",
+        "18-bullseye",
+        "20-buster",
+        "18-buster"
       ],
-      "default": "bullseye"
+      "default": "20-bullseye"
     }
   },
   "platforms": [
