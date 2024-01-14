@@ -1,6 +1,6 @@
 {
   "id": "vue",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "name": "Dev Container for Vue.js",
   "description": "A Template to remind you of your favorite color",
   "documentationURL": "https://github.com/devcontainers/template-starter/tree/main/src/color",
