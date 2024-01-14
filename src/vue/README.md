@@ -1,13 +1,15 @@
 
-# Vue Template (vue)
+# Dev Container for Vue.js (vue)
 
-A Template to configure a [Vue](https://vuejs.org/) development container.
+A Template to remind you of your favorite color
 
 ## Options
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
 | imageVariant | Debian version (use bullseye on local arm64/Apple Silicon): | string | bullseye |
+
+
 
 ---
 
