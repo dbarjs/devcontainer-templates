@@ -1,13 +1,13 @@
 
 # Dev Container for Vue.js (vue)
 
-A Template to remind you of your favorite color
+A Template for Vue.js development in a Docker container
 
 ## Options
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| imageVariant | Debian version (use bullseye on local arm64/Apple Silicon): | string | bullseye |
+| imageVariant | Node.js version (use -bookworm, -bullseye variants on local arm64/Apple Silicon): | string | 20-bullseye |
 
 
 
