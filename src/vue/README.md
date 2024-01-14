@@ -1,16 +1,13 @@
 
-# My Favorite Color (vue)
+# Vue Template (vue)
 
-A Template to remind you of your favorite color
+A Template to configure a [Vue](https://vuejs.org/) development container.
 
 ## Options
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
 | imageVariant | Debian version (use bullseye on local arm64/Apple Silicon): | string | bullseye |
-| favorite | Choose your favorite color. | string | red |
-
-
 
 ---
 

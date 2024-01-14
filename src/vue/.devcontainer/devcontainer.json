@@ -1,6 +1,12 @@
 {
   "name": "Vue Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/typescript-node",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:lts-bullseye",
+
+  "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
 
   // 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
   // "features": {},
@@ -52,6 +58,7 @@
         "files.insertFinalNewline": true,
 
         // ========== Extension configs ==========
+        "cSpell.enabled": false,
         "eslint.codeAction.showDocumentation": {
           "enable": true
         },
