@@ -1,6 +1,6 @@
 {
   "id": "vue",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "name": "Dev Container for Vue.js",
   "description": "A Template for Vue.js development in a Docker container",
   "documentationURL": "https://github.com/dbarjs/devcontainer-templates/tree/main/src/vue",
