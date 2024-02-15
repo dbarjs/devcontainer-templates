@@ -1,6 +1,6 @@
 {
   "id": "vue",
-  "version": "1.3.2",
+  "version": "1.5.0",
   "name": "Dev Container for Vue.js",
   "description": "A Template for Vue.js development in a Docker container",
   "documentationURL": "https://github.com/dbarjs/devcontainer-templates/tree/main/src/vue",
@@ -8,13 +8,12 @@
   "options": {
     "imageVariant": {
       "type": "string",
-      "description": "Node.js version (use -bookworm, -bullseye variants on local arm64/Apple Silicon):",
+      "description": "Node.js version",
       "proposals": [
-        "20-bookworm",
-        "20-bullseye",
-        "20-buster"
+        "current",
+        "lts"
       ],
-      "default": "20-bullseye"
+      "default": "current"
     }
   },
   "platforms": [
