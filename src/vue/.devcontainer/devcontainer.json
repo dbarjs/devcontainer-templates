@@ -9,9 +9,7 @@
       // "version": "latest"
     },
     "ghcr.io/devcontainers/features/github-cli:1": { },
-    "ghcr.io/dbarjs/devcontainer-features/zsh:latest": {
-      "username": "node"
-    }
+    "ghcr.io/dbarjs/devcontainer-features/zsh:latest": { }
   },
 
   // 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
